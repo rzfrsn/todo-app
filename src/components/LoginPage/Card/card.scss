@@ -1,0 +1,49 @@
+@use '/src/scss/variables';
+
+.card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+  width: 42%;
+  min-width: 400px;
+  padding: 1.5rem;
+
+  &-img {
+    width: 7.5rem;
+    height: 7.5rem;
+    border-radius: 50%;
+    object-fit: cover;
+    
+  }
+
+  &-content {
+    width: 70%;
+    padding: 1rem 0px;
+
+    min-width: 200px;
+    &-title, &-signature {
+      color: variables.$primary-color;
+    }
+
+    &-title {
+      font-weight: 700;
+      margin-bottom: 1rem;
+    }
+
+    &-description {
+      font-size: 1rem;
+      font-weight: 400;
+      color: variables.$app-gray;
+      margin-bottom: 1rem;
+      text-align: justify;
+    }
+
+    &-signature {
+      text-align: end;
+    }
+  }
+  
+
+}

@@ -1,0 +1,14 @@
+@use '/src/scss/variables';
+
+.btn {
+  display: block;
+  width: 100%;
+  padding: 11px 22px;
+  font-weight: 700;
+  font-size: 16px;
+  background-color: transparent;
+  text-transform: capitalize;
+  color: variables.$primary-color;
+  border: solid 1px variables.$primary-color;
+  border-radius: 4px;
+}

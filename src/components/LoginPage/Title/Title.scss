@@ -1,0 +1,22 @@
+@use '/src/scss/variables';
+
+.title {
+  width: 435px;
+
+  .title-1 {
+    font-size: 6rem;
+    font-weight: 300;
+    margin: 2rem 0px;
+    color: variables.$primary-color;
+  }
+  
+  .title-2{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px;
+    list-style-type: none;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+  }
+}
