@@ -1,0 +1,7 @@
+@use '/src/scss/variables';
+
+.tabbar {
+  width: 1;
+  height: 59px;
+  border-bottom: 1px solid variables.$app-light-gray;
+}
