@@ -1,0 +1,14 @@
+@use '/src/scss/variables';
+
+.todo-list-item {
+  display: flex;
+  padding: 1rem 2rem;
+  background: white;
+  border-radius: 5px;
+  filter: drop-shadow(0px 1px 4px rgba(193, 162, 162, 0.25));
+
+  .prepend-icon {
+    color: variables.$primary-color;
+    margin-right: 1.5rem;
+  }
+}
