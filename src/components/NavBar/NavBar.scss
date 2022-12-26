@@ -1,0 +1,35 @@
+@use '/src/scss/variables';
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 80px;
+  height: 90px;
+  border-bottom: 1px solid variables.$app-light-gray;
+
+  .title {
+    font-size: 24px;
+    font-weight: 300;
+    color: variables.$primary-color;
+  }
+
+  .profil {
+    display: flex;
+    align-items: center;
+
+    &-img {
+      width: 58px;
+      height: 58px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-right: 1rem;
+    }
+
+    &-name {
+      font-weight: 400;
+      font-size: 1rem;
+    }
+  }
+}
