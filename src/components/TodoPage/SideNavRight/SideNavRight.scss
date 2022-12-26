@@ -1,0 +1,9 @@
+@use '/src/scss/variables';
+
+.sidenav-right {
+  position: fixed;
+  width: 345px;
+  height: calc(100vh - 90px);
+  right: 0px;
+  border-left: 1px solid variables.$app-light-gray;
+}
