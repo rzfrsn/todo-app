@@ -1,0 +1,16 @@
+.playground {
+  padding-right: 345px;
+
+  &-main {
+    height: 50vh;
+    padding-left: 80px;
+
+    .todo-list {
+      padding: 4rem 8rem;
+      
+      &-item {
+        margin-bottom: 1rem;
+      }
+    }
+  }
+}
